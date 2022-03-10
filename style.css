@@ -1,0 +1,135 @@
+/****GENERAL ****/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Cabin', sans-serif;
+    font-size:15px;
+    background: rgb(230,230,230);
+}
+
+a{
+    text-decoration:none;
+}
+
+/**** HEADER ****/
+
+header{
+    background:#fff;
+    border-bottom:1px solid #888;
+}
+
+.headerContainer{
+/* background: red; */
+    width:1000px;
+    height:110px;
+    margin:auto;
+    display:flex;
+    align-items:center;
+}
+
+/*** DIV LOGO***/
+
+.logo{
+    width:20%;
+}
+
+.logo img{
+    height:80px;
+}
+
+.italic{
+    font-style:italic;
+}
+
+/*** NAV***/
+
+nav{
+    width:80%;
+    display:flex;
+    justify-content: space-between;
+}
+
+nav a {
+    color: black;
+}
+
+/*** MAIN ***/
+
+main{
+    width:1000px;
+    margin:auto;
+}
+
+.information{
+    color: white;
+    background: #04a9c5;
+    padding:5px;
+}
+
+.ariane{
+    color:#04a9c5;
+    padding:5px;
+}
+
+/*** COM ***/
+
+.com{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cadre{
+    background:white;
+    border-radius:5px;
+    border: 1px solid grey;
+    width: 320px;
+}
+
+.cadre img{
+    width:100%;
+}
+
+.cadre h2{
+    text-align:center;
+    color:darkslategrey;
+    padding:10px 0;
+    border-bottom:1px solid grey;
+    font-size:16px;
+    background:#c1eaf1;
+}
+
+.cadre p{
+    text-align:justify;
+}
+
+.cadre a {
+    /* background:red; */
+    display:block;
+    color: grey;
+    padding: 5px 0;
+    text-align:center;
+    border-top: 1px solid grey;
+}
+
+/*** FOOTER****/
+
+footer{
+    height:40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a{
+    margin:10px;
+    color:#04a9c5;
+    font-weight:bold;
+}
+
+
+
+
